@@ -1,0 +1,103 @@
+.header {
+	margin: 10px 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.left_header ul {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	margin: 0;
+	padding: 0;
+}
+
+.left_header ul li {
+	list-style: none;
+}
+
+.left_header ul li a {
+	font-size: 18px;
+	font-weight: 500;
+	transition: 0.3 ease-in-out;
+	cursor: pointer;
+}
+
+.left_header ul li a:hover {
+	color: #4824ff;
+	filter: drop-shadow(0 0 50px #4824ff);
+}
+
+.right_header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.btn {
+	height: 55px;
+	padding: 0 30px;
+	border-radius: 55px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background-color: #4824ff;
+	font-weight: 500;
+	font-size: 18px;
+	transition: 0.5s;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+}
+
+.icon.telegram {
+	content: url(../../images/telegram.png);
+}
+
+.icon.instagram {
+	content: url(../../images/instagram.png);
+}
+
+.icon {
+	height: 55px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.icon:hover {
+	transform: scale(1.2);
+}
+
+.switch {
+	width: 135px;
+	height: 55px;
+	cursor: pointer;
+	border-radius: 55px;
+	overflow: hidden;
+	background: #eeebff;
+}
+
+.theme {
+	margin: 2px;
+	width: 27px;
+	padding: 12px;
+	border-radius: 55px;
+	background-color: #fff;
+	/* margin: 2px; */
+	transition: 0.5s;
+}
+
+.theme.light {
+	content: url(../../images/sun.png);
+}
+
+.switch:hover > .theme.light {
+	transform: rotate(45deg);
+}
