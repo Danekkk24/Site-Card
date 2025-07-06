@@ -1,0 +1,80 @@
+.welcome_block {
+	margin: 10px 30px;
+}
+
+.left_block h2 span,
+.left_block h3 span {
+	color: #4824ff;
+}
+
+.left_block {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	align-content: center;
+	width: 55%;
+}
+
+.welcome_block {
+	height: 650px;
+	display: flex;
+	place-items: center;
+}
+
+.welcome_block h1 {
+	font-size: 52px;
+}
+
+.welcome_block h2 {
+	font-size: 42px;
+	font-weight: 450;
+}
+
+.welcome_block h3 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.welcome_block h1 span {
+	background: linear-gradient(
+		to right,
+		#4824ff,
+		#4824ff,
+		#85ebff,
+		#eeebff,
+		#85aeff,
+		#4824ff,
+		#4824ff
+	);
+	background-clip: text;
+	color: transparent;
+	background-size: 200%;
+	animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+	0% {
+		background-position: 200% 50%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+.right_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right_block img {
+	animation: reactAnimation 10s linear infinite;
+}
+
+@keyframes reactAnimation {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

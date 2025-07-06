@@ -45,11 +45,11 @@ export default function ModalWindow({ show, onClose, children }) {
 				{children}
 				<div style={{ display: 'flex', justifyContent: 'center' }}>
 					<a href='#' target='_blank' className={styles.social_btn}>
-						<a className={`${styles.social} ${styles.telegram}`} />
+						<span className={`${styles.social} ${styles.telegram}`} />
 						Telegram
 					</a>
 					<a href='#' target='_blank' className={styles.social_btn}>
-						<a className={`${styles.social} ${styles.instagram}`} />
+						<span className={`${styles.social} ${styles.instagram}`} />
 						Instagram
 					</a>
 				</div>
