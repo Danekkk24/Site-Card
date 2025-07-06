@@ -1,0 +1,103 @@
+.modal_backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	visibility: hidden;
+	background: rgba(0, 0, 0, 0.5);
+	transition: opacity 0.5s ease, visibility 0.5s ease;
+	z-index: 1000;
+}
+
+.modal_backdrop.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal_content {
+	position: relative;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 16px;
+	width: 500px;
+	height: 285px;
+	transform: translateY(-50px);
+	transition: transform 0.5s ease;
+	z-index: 1001;
+}
+
+.modal_backdrop.show .modal_content {
+	transform: translateY(0);
+}
+
+.modal_close_btn {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 0;
+	outline: none;
+}
+
+.modal_close_btn::before,
+.modal_close_btn::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 2px;
+	background-color: #333;
+}
+
+.modal_close_btn::before {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.modal_close_btn::after {
+	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.social_btn {
+	display: flex;
+	align-items: center;
+	width: 200px;
+	height: 55px;
+	border-radius: 55px;
+	background-color: black;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-right: 2%;
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.social_btn:hover {
+	background-color: #4824ff;
+	filter: drop-shadow(0 0 35px #4824ff40);
+	color: #eeebff;
+}
+
+.social.telegram {
+	margin: 0 15px;
+	max-width: 40px;
+	content: url(../../../images/telegram.svg);
+	filter: brightness(0) invert(1);
+}
+
+.social.instagram {
+	margin: 0 15px;
+	max-width: 40px;
+	content: url(../../../images/instagram.svg);
+	filter: brightness(0) invert(1);
+}
