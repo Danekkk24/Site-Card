@@ -1,0 +1,86 @@
+.carousel_container {
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	scroll-behavior: auto;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
+}
+
+.carousel_container::-webkit-scrollbar {
+	display: none; /* Chrome/Safari */
+}
+
+.carousel_content {
+	display: flex;
+	width: max-content;
+}
+
+.carousel_image {
+	width: auto;
+	height: 200px;
+	border-radius: 16px;
+	margin: 10px;
+	cursor: pointer;
+	flex-shrink: 0;
+}
+
+.modal_window_image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 1000;
+	transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.modal_image {
+	max-width: 90vw;
+	max-height: 90vh;
+	border-radius: 10px;
+}
+
+.modal_image_close_button {
+	margin-top: -18px;
+	margin-left: 10px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	border: none;
+	cursor: pointer;
+	border-radius: 50%;
+	font-size: 0;
+	outline: none;
+	transition: 0.5s ease-in-out;
+}
+
+.modal_image_close_button:hover {
+	background: #fff;
+	filter: drop-shadow(0 0 30px #4824ff75);
+}
+
+.modal_image_close_button::before,
+.modal_image_close_button::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30px;
+	height: 4px;
+	background-color: #4824ff;
+}
+
+.modal_image_close_button::before {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.modal_image_close_button::after {
+	transform: translate(-50%, -50%) rotate(-45deg);
+}

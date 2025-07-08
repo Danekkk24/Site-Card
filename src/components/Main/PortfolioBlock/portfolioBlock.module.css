@@ -1,0 +1,76 @@
+.portfolio_block {
+	height: auto;
+}
+
+.portfolio_block .first_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.portfolio_block .main_title {
+	font-size: 56px;
+	font-weight: 400;
+	font-family: 'Prata', sans-serif;
+	color: transparent;
+	background: linear-gradient(to right, black, #4824ff);
+	background-clip: text;
+}
+
+.portfolio_block .arrow_icon {
+	margin: 0 20px;
+	padding: 0;
+	width: 75px;
+	filter: drop-shadow(20px 20px 15px #4824ff25);
+}
+
+.portfolio_block .title_border {
+	font-size: 56px;
+	font-family: 'Prata', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	margin: 10px 0;
+	text-shadow: -1px -1px 0 #4824ff30, 1px -1px 0 #4824ff30, -1px 1px 0 #4824ff30,
+		1px 1px 0 #4824ff30;
+}
+
+.gradient_part_one {
+	position: absolute;
+	background: linear-gradient(to right, transparent, #fff);
+	color: transparent;
+	width: 200px;
+	height: 70px;
+}
+
+.gradient_part_two {
+	position: absolute;
+	background: linear-gradient(to left, transparent, #fff);
+	color: transparent;
+	width: 200px;
+	height: 70px;
+}
+
+.portfolio_block .tag {
+	display: flex;
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0 12px 0 0;
+	padding: 8px 22px;
+	background: #eeebff;
+	color: #4824ff;
+	border-radius: 24px;
+	border: 1px solid #eeebff;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.portfolio_block .tag:hover {
+	background: #4824ff;
+	color: #fff;
+	filter: drop-shadow(0 0 30px #4824ff25);
+}
+
+.portfolio_block .selected {
+	background: #04001a;
+	color: #fff;
+}
