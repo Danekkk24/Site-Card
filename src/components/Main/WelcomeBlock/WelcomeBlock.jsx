@@ -3,7 +3,7 @@ import styles from './welcomeBlock.module.css'
 
 export default function WelcomeBlock() {
 	return (
-		<div className={styles.welcome_block}>
+		<section className={styles.welcome_block}>
 			<div className={styles.left_block}>
 				<h1>
 					Веб-дизайнер <span>Workford</span>
@@ -21,6 +21,6 @@ export default function WelcomeBlock() {
 			<div className={styles.right_block}>
 				<img src={reactLogo} alt='React Logo' />
 			</div>
-		</div>
+		</section>
 	)
 }

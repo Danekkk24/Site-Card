@@ -2,7 +2,7 @@ import styles from './serviceBlock.module.css'
 
 export default function ServiceBlock() {
 	return (
-		<div className={styles.service_block} draggable='false'>
+		<section className={styles.service_block} draggable='false'>
 			<h1 style={{ fontSize: '52px' }}>УСЛУГИ</h1>
 			<p style={{ fontSize: '27px' }}>
 				Создаю <span style={{ color: '#4824ff' }}>статический дизайн </span>по
@@ -39,6 +39,6 @@ export default function ServiceBlock() {
 				Детальней готов обсудить при
 				<span style={{ color: '#4824ff' }}> личной переписке.</span>
 			</p>
-		</div>
+		</section>
 	)
 }
