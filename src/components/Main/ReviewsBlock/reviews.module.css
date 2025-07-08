@@ -1,0 +1,127 @@
+.review_block {
+	margin: 80px 0;
+	height: 580px;
+	border-radius: 28px;
+	background: #4824ff;
+}
+
+.review_block h1 {
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 36px;
+}
+
+.review_block .description {
+	color: #fff;
+	text-align: center;
+	margin-top: -12px;
+	font-size: 22px;
+	line-height: 32px;
+}
+
+.review_block .selecting {
+	background: #fff;
+	color: black;
+	margin: 0 8px;
+	font-weight: 500;
+}
+
+.review_carousel {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 1260px;
+}
+
+.review_container {
+	display: flex;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
+	overflow: hidden;
+}
+
+.next_button {
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	background: #fff;
+	cursor: pointer;
+	transition: 0.7s;
+	align-content: center;
+	margin: 16px 0 0 10px;
+}
+
+.next_button .array_next_icon {
+	content: url(../../../images/next_and_prew_btn.png);
+	scale: 0.7;
+	height: 50px;
+	padding: 0px;
+	margin: -10px 5px;
+}
+
+.next_button:hover {
+	background-color: #00000050;
+}
+
+.next_button:hover .array_next_icon {
+	filter: invert(100%);
+}
+
+.review_card {
+	min-width: 420px;
+}
+
+.review_content {
+	height: 230px;
+	width: 384px;
+	background: #fff;
+	border-radius: 24px;
+	margin: 0 18px;
+}
+
+.review_block .review {
+	margin-top: auto;
+	font-size: 19px;
+	line-height: 27px;
+	width: 90%;
+}
+
+.review_block .link {
+	display: flex;
+	position: right;
+	height: 40px;
+	width: 80px;
+	background-color: black;
+	border-radius: 24px;
+	cursor: pointer;
+	border: 2px solid black;
+	transition: 0.5s ease-in-out;
+}
+
+.review_block .link:hover {
+	border: 2px double #4824ff;
+	filter: drop-shadow(0 0 25px #4824ff90);
+}
+
+.review_block .telegram_icon {
+	margin: -7px -4px;
+	padding: 0;
+	position: relative;
+	content: url(../../../images/telegram.svg);
+	background: none;
+	filter: invert(100%);
+	scale: 0.5;
+	height: 50px;
+}
+
+.review_block .array_corner_icon {
+	margin: -6px -18px;
+	padding: 0;
+	position: relative;
+	content: url(../../../images/array_corner.png);
+	background: none;
+	filter: invert(100%);
+	scale: 0.5;
+	height: 50px;
+}
