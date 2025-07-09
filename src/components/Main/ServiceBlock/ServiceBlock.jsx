@@ -2,7 +2,11 @@ import styles from './serviceBlock.module.css'
 
 export default function ServiceBlock() {
 	return (
-		<section className={styles.service_block} draggable='false'>
+		<section
+			id='service_block'
+			className={styles.service_block}
+			draggable='false'
+		>
 			<h1 style={{ fontSize: '52px' }}>УСЛУГИ</h1>
 			<p style={{ fontSize: '27px' }}>
 				Создаю <span style={{ color: '#4824ff' }}>статический дизайн </span>по

@@ -18,19 +18,19 @@ export default function Header() {
 			<div className={styles.left_header}>
 				<ul>
 					<li>
-						<a>Обо мне</a>
+						<a href='#welcome_block'>Обо мне</a>
 					</li>
 					<li>
-						<a>Услуги</a>
+						<a href='#service_block'>Услуги</a>
 					</li>
 					<li>
-						<a>Портфолио</a>
+						<a href='#portfolio_block'>Портфолио</a>
 					</li>
 					<li>
-						<a>Отзывы</a>
+						<a href='#reviews_block'>Отзывы</a>
 					</li>
 					<li>
-						<a>Гарантии</a>
+						<a href='#guarantees_block'>Гарантии</a>
 					</li>
 				</ul>
 			</div>

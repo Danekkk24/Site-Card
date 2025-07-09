@@ -2,7 +2,7 @@ import styles from './guaranteesBlock.module.css'
 
 export default function GuaranteesBlock() {
 	return (
-		<section className={styles.guarantees_block}>
+		<section id='guarantees_block' className={styles.guarantees_block}>
 			<h1 style={{ fontSize: '52px', paddingBottom: '20px' }}>ГАРАНТИИ</h1>
 			<ol className={styles.guarantees_points}>
 				<li className={styles.point}>

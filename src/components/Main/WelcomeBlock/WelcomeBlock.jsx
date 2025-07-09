@@ -3,7 +3,7 @@ import styles from './welcomeBlock.module.css'
 
 export default function WelcomeBlock() {
 	return (
-		<section className={styles.welcome_block}>
+		<section id='welcome_block' className={styles.welcome_block}>
 			<div className={styles.left_block}>
 				<h1>
 					Веб-дизайнер <span>Workford</span>

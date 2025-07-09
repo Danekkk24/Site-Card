@@ -27,7 +27,7 @@ export default function PortfolioBlock() {
 	}
 
 	return (
-		<section className={styles.portfolio_block}>
+		<section id='portfolio_block' className={styles.portfolio_block}>
 			<div className={styles.first_block}>
 				<h1 className={styles.main_title}>Портфолио</h1>
 				<div style={{ position: 'absolute', marginLeft: '-660px' }}>

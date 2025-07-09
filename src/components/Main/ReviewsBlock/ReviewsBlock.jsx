@@ -87,7 +87,7 @@ export default function Reviews() {
 	}, [])
 
 	return (
-		<section className={styles.review_block}>
+		<section id='reviews_block' className={styles.reviews_block}>
 			<h1>ОТЗЫВЫ</h1>
 			<p className={styles.description}>
 				Отзывы клиентов, написанные со своих{' '}

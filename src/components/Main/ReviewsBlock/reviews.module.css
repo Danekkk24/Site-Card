@@ -1,18 +1,18 @@
-.review_block {
+.reviews_block {
 	margin: 80px 0;
 	height: 580px;
 	border-radius: 28px;
 	background: #4824ff;
 }
 
-.review_block h1 {
+.reviews_block h1 {
 	color: #fff;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 36px;
 }
 
-.review_block .description {
+.reviews_block .description {
 	color: #fff;
 	text-align: center;
 	margin-top: -12px;
@@ -20,7 +20,7 @@
 	line-height: 32px;
 }
 
-.review_block .selecting {
+.reviews_block .selecting {
 	background: #fff;
 	color: black;
 	margin: 0 8px;
@@ -80,14 +80,14 @@
 	margin: 0 18px;
 }
 
-.review_block .review {
+.reviews_block .review {
 	margin-top: auto;
 	font-size: 19px;
 	line-height: 27px;
 	width: 90%;
 }
 
-.review_block .link {
+.reviews_block .link {
 	display: flex;
 	position: right;
 	height: 40px;
@@ -99,12 +99,12 @@
 	transition: 0.5s ease-in-out;
 }
 
-.review_block .link:hover {
+.reviews_block .link:hover {
 	border: 2px double #4824ff;
 	filter: drop-shadow(0 0 25px #4824ff90);
 }
 
-.review_block .telegram_icon {
+.reviews_block .telegram_icon {
 	margin: -7px -4px;
 	padding: 0;
 	position: relative;
@@ -115,7 +115,7 @@
 	height: 50px;
 }
 
-.review_block .array_corner_icon {
+.reviews_block .array_corner_icon {
 	margin: -6px -18px;
 	padding: 0;
 	position: relative;
