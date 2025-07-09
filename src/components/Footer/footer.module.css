@@ -1,0 +1,9 @@
+.footer {
+	height: 80px;
+	text-align: center;
+	font-size: 24px;
+	margin-left: -5vw;
+	margin-right: -5vw;
+	border-top: 1px solid #cec4fe50;
+	align-content: center;
+}
